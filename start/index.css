@@ -1,0 +1,44 @@
+:root {
+  --font-large: 18px;
+  --font-size: 14px;
+  --color-pink: #ff9e80;
+  --color-black: #212121;
+  --color-white: #fbe9e7;
+  --padding-base: 8px;
+  --border-radius: 18px;
+}
+
+* {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+body {
+  background-color: var(--color-pink);
+  display: flex;
+  text-align: center;
+  align-items: column;
+}
+.container {
+  margin-top: 20px;
+}
+#main {
+  margin-top: 8px;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius);
+}
+.mainImg {
+  width: 300px;
+  height: 300px;
+}
+
+.intro {
+  font-size: var(--font-size);
+  padding: var(--padding-base);
+
+  margin-bottom: var(--padding-base);
+}
+
+.btn btn-outline-danger {
+  padding: 16px;
+  margin-bottom: 4px;
+}
