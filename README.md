@@ -1,2 +1,2 @@
-인프런: https://inf.run/2rSZ  
-구름EDU: https://edu.goorm.io/lecture/25652/%25ED%2595%2598%25EB%25A3%25A8-10%25EB%25B6%2584-html-js-css%25EB%25A1%259C-%25EB%2582%2598%25EB%25A7%258C%25EC%259D%2598-mbti-%25EC%2582%25AC%25EC%259D%25B4%25ED%258A%25B8-%25EB%25A7%258C%25EB%2593%25A4%25EA%25B8%25B0
+-애니매이션 css 활용하기
+-bootstrap을 이용한 동적인 화면 구성 및 스타일 -내장함수를 활(ex/ createElement, addEventListener, setTimeout, querySelector, querySelectorAll, add ..)

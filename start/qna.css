@@ -1,3 +1,45 @@
 #qna {
   display: none;
 }
+
+:root {
+  --font-large: 18px;
+  --font-size: 14px;
+  --color-pink: #ff9e80;
+  --color-black: #212121;
+  --color-white: #fbe9e7;
+  --color-lightpink: #ffd0b0;
+  --color-gray: #a4a4a4;
+  --padding-base: 8px;
+  --margin-base: 16px;
+  --border-radius: 18px;
+}
+
+.qBox {
+  text-align: center;
+  background-color: var(--color-white);
+  border-radius: 20px;
+  padding: var(--padding-base);
+  margin: var(--margin-base);
+  font-size: 20px;
+}
+.aBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-base);
+  margin: var(--margin-base);
+}
+.answerList {
+  border-radius: 20px;
+  justify-content: center;
+  width: 100%;
+  padding: var(--padding-base);
+  margin: 8px auto;
+}
+
+.answerList:hover,
+.answerList:focus {
+  font-size: 110%;
+  background-color: var(--color-lightpink);
+}
