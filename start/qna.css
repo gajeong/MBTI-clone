@@ -16,11 +16,13 @@
 }
 
 .qBox {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: var(--color-white);
   border-radius: 20px;
   padding: var(--padding-base);
-  margin: var(--margin-base);
+  margin-top: var(--margin-base);
   font-size: 20px;
 }
 .aBox {
@@ -42,4 +44,38 @@
 .answerList:focus {
   font-size: 110%;
   background-color: var(--color-lightpink);
+}
+
+.status {
+  height: 20px;
+  width: 100%;
+  /*colorzilla.com 사이트를 활용한 그라데이션*/
+  background: #febbbb; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #febbbb 0%,
+    #fe9090 45%,
+    #ff5c5c 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #febbbb 0%,
+    #fe9090 45%,
+    #ff5c5c 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #febbbb 0%,
+    #fe9090 45%,
+    #ff5c5c 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+
+  border-radius: 20px;
+}
+
+.statusBar {
+  height: 100%;
+  background-color: var(--color-lightpink);
+  border-radius: 20px;
 }

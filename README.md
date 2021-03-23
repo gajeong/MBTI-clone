@@ -1,2 +1,2 @@
 -애니매이션 css 활용하기
--bootstrap을 이용한 동적인 화면 구성 및 스타일 -내장함수를 활(ex/ createElement, addEventListener, setTimeout, querySelector, querySelectorAll, add ..)
+-bootstrap을 이용한 동적인 화면 구성 및 스타일 -내장함수를 활(ex/ createElement, addEventListener, setTimeout, querySelector, querySelectorAll, add .. )

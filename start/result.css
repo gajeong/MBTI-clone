@@ -1,0 +1,28 @@
+#result {
+  margin-top: 8px;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius);
+  padding: 4px;
+}
+
+.resultName {
+  padding-top: 8px;
+  font-size: 110%;
+}
+
+.img-fluid {
+  width: 70%;
+  height: 70%;
+}
+.resultDesc {
+  padding: 8px;
+}
+
+.shareBtn {
+  margin-bottom: 10px;
+}
+
+.shareBtn:hover,
+.shareBtn:focus {
+  background-color: #a4a4a4;
+}
