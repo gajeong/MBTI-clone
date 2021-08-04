@@ -31,6 +31,7 @@ body {
 h3{
   color:#faf8f8;
   padding-bottom: 20px;
+  text-shadow: 2px 4px 2px rgb(119, 141, 170);
 }
 .container {
   margin-top: 3rem;
