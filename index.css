@@ -1,15 +1,24 @@
 :root {
   --font-large: 18px;
   --font-size: 14px;
-  --color-pink: #ff9e80;
+  --color-pink: #14496d;
   --color-black: #212121;
-  --color-white: #fbe9e7;
+  --color-white: #faf8f8;
   --padding-base: 8px;
   --border-radius: 18px;
 }
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
-  font-family: "Do Hyeon", sans-serif;
+  font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -17,9 +26,14 @@ body {
   display: flex;
   text-align: center;
   align-items: column;
+  height: 100vh;
+}
+h3{
+  color:#faf8f8;
+  padding-bottom: 20px;
 }
 .container {
-  margin-top: 20px;
+  margin-top: 3rem;
 }
 #main {
   margin-top: 8px;
@@ -28,8 +42,8 @@ body {
 }
 .mainImg {
   padding: 20px;
-  width: 30%;
-  height: 30%;
+  width: 50%;
+  height: 50%;
 }
 
 .intro {
@@ -40,6 +54,6 @@ body {
 }
 
 .btn btn-outline-danger {
-  padding: 16px;
-  margin-bottom: 4px;
+  padding: 8px;
+  margin-bottom: 8px;
 }
