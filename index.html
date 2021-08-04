@@ -31,8 +31,11 @@
   <script>
     Kakao.init('81427449cd3d21846d6e95e4c0605bae');
     Kakao.isInitialized();
-
   </script>
+  <script deer src="./js/data.js" charset="utf-8"></script>
+  <script defer src="./js/start.js" charset="utf-8"></script>
+  <script defer src="./js/share.js" charset="utf-8"></script>
+
 
   <title>십이간지 연애유형</title>
 </head>
@@ -71,7 +74,7 @@
 
     <!--result -->
     <section id="result" class="mx-auto">
-      <h3>당신의 결과는?</h3>
+      <h4>당신의 결과는?</h4>
       <div class="resultName">
 
       </div>
@@ -83,14 +86,10 @@
       <div class="resultDesc">
 
       </div>
-      <button type='button' class="shareBtn" onclick="js:kakaoShare">공유하기</button>
+      <button type='button' class="shareBtn" onclick="js:kakaoShare()">공유하기</button>
 
     </section>
 
-    <!-- script는 broswer 화면 제공을 빨리 하기 위헤 뒤에 넣는 것을 권장 -->
-    <script src="./js/data.js" charset="utf-8"></script>
-    <script src="./js/start.js" charset="utf-8"></script>
-    <script src="./js/share.js" charset="utf-8"></script>
 
   </div>
 </body>
