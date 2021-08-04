@@ -1,2 +1,11 @@
--애니매이션 css 활용하기
--bootstrap을 이용한 동적인 화면 구성 및 스타일 -내장함수를 활(ex/ createElement, addEventListener, setTimeout, querySelector, querySelectorAll, add .. )
+# 오버워치 캐릭터와 맞는 나의 연애유형 심리테스트 
+jS와 css를 활용하여 나의 연애 유형과 비슷한 오버워치 캐릭터를 확인할 수 있습니다. 
+평소 MBTI와 심리테스트에 관심이 많아, 사용자에게 재미를 더하고자 만들었습니다. 
+- - -
+### 🎥 구현 영상 
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/57476918/128165472-eb9cd1b4-3dcc-4b63-a36c-0bdf35c6f65a.gif)
+- - -
+### 📑 기능 설명 
+- 시작하기 화면 
+- 질문/결과 선택 
+- 테스트 공유하기(카카오링크) 
