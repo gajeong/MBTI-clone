@@ -10,7 +10,7 @@ function kakaoShare() {
     },
     buttons: [
       {
-        title: '테스트 하러가기',
+        title: '테스트 참여하기',
         link: {
           mobileWebUrl: 'https://developers.kakao.com',
         },
